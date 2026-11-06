@@ -1,0 +1,14 @@
+import puppeteer from "puppeteer-core";
+import { fileURLToPath, pathToFileURL } from "node:url";
+const CHROME = process.env.CHROME_PATH || "C:/Program Files/Google/Chrome/Application/chrome.exe";
+const url = pathToFileURL(fileURLToPath(new URL("index.html", import.meta.url))).href;
+const browser = await puppeteer.launch({ executablePath: CHROME, headless: true, ignoreDefaultArgs: ["--hide-scrollbars"], args: ["--no-sandbox"] });
+const page = await browser.newPage();
+page.on("pageerror", e => console.log("PAGEERROR", e.message));
+page.on("console", m => { if (m.type() === "error") console.log("CONSOLE", m.type(), m.text().slice(0, 300)); });
+await page.setViewport({ width: Number(process.argv[3] ?? 1400), height: 900 });
+await page.goto(url + (process.argv[2] ?? ""));
+await new Promise(r => setTimeout(r, 1500));
+await page.screenshot({ path: fileURLToPath(new URL("out/smoke.png", import.meta.url)) });
+console.log(await page.evaluate(() => document.querySelectorAll(".ag-row").length), "rows rendered");
+await browser.close();
