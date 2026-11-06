@@ -74,16 +74,16 @@ as a JSON **change set**.
 
 | | |
 | --- | --- |
-| ![Product launch tracker](docs/screenshots/screenshot-1.png) | ![Add field and the field menu](docs/screenshots/screenshot-2.png) |
-| **1. Product launch tracker.** Saved views, select chips, owners, dates and progress. | **2. Fields.** Users add typed fields and manage them from the field menu. |
-| ![Budget planner](docs/screenshots/screenshot-3.png) | ![View bar panels](docs/screenshots/screenshot-4.png) |
-| **3. Budget planner.** Months as columns, quarter header groups, row colours and totals. | **4. View bar.** Hide fields, filter, sort, group and colour panels. |
-| ![Sales report](docs/screenshots/screenshot-5.png) | ![Sales pipeline board](docs/screenshots/screenshot-6.png) |
-| **5. Sales report.** Read-only grid grouped by region with subtotals. | **6. Sales pipeline.** Board view with one lane per stage and lane totals. |
-| ![Content calendar](docs/screenshots/screenshot-7.png) | ![Record drawer and export](docs/screenshots/screenshot-8.png) |
-| **7. Content calendar.** Calendar view coloured by channel. | **8. Record drawer and export.** Edit a whole row; export to Excel with the grid's colours. |
-| ![Inventory at scale](docs/screenshots/screenshot-9.png) | ![Studio Pro properties](docs/screenshots/screenshot-10.png) |
-| **9. Inventory at scale.** 20,000 rows in server mode with paging. | **10. Studio Pro properties.** Every property of the widget, by tab. |
+| ![Product launch tracker](docs/screenshots/screenshot-1.png) | ![Budget planner](docs/screenshots/screenshot-2.png) |
+| **1. Product launch tracker.** Saved views, select chips, owners, dates, progress and footer totals. | **2. Budget planner.** Months as columns, quarter header groups, row colours and totals. |
+| ![Sales report](docs/screenshots/screenshot-3.png) | ![Sales pipeline board](docs/screenshots/screenshot-4.png) |
+| **3. Sales report.** Read-only grid grouped by region with subtotals. | **4. Sales pipeline.** Board view with one lane per stage and lane totals. |
+| ![Content calendar](docs/screenshots/screenshot-5.png) | ![Inventory at scale](docs/screenshots/screenshot-6.png) |
+| **5. Content calendar.** Calendar view coloured by channel. | **6. Inventory at scale.** 20,000 rows in server mode with paging. |
+| ![Studio Pro page editor](docs/screenshots/screenshot-7.png) | ![Studio Pro properties: General and Editing](docs/screenshots/screenshot-8.png) |
+| **7. Studio Pro page editor.** The grid selected in Design mode, with its column definitions in the Properties pane. | **8. Studio Pro properties.** Column definitions on the General tab; save microflow and change set on the Editing tab. |
+| ![Studio Pro properties: Features](docs/screenshots/screenshot-9.png) | ![Add field and the field menu](docs/screenshots/screenshot-10.png) |
+| **9. Studio Pro properties.** Toolbar switches and export and import options on the Features tab. | **10. Fields.** Users add typed fields and manage them from the field menu. |
 
 ## Studio Pro setup
 
